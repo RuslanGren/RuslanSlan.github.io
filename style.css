@@ -563,15 +563,8 @@ a {
 	position: absolute;
 	right: 30px;
 }
+
 @media screen and (max-width: 1010px){
-	.services_list{
-		display: grid;
-		grid-template-columns: auto auto;
-		justify-content: center;
-		grid-column-gap: 10px;
-	}
-}
-@media screen and (max-width: 720px){
 	.topnav a{
 		display: none;
 	}
@@ -649,6 +642,12 @@ a {
     .comment_info2{
     	margin-left: 0;
     }
+    .services_list{
+		display: grid;
+		grid-template-columns: auto auto;
+		justify-content: center;
+		grid-column-gap: 10px;
+	}
 }
 
 @media screen and (max-width: 320px){
