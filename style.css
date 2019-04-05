@@ -571,7 +571,7 @@ a {
 		grid-column-gap: 10px;
 	}
 }
-@media screen and (max-width: 721px){
+@media screen and (max-width: 720px){
 	.topnav a{
 		display: none;
 	}
